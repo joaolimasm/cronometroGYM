@@ -1,0 +1,17 @@
+:host{
+  text-align:center;
+  display:block;
+}
+
+.timeLeft {
+  font-size: 2rem;
+}
+div~div {
+  margin-top: 4px;
+
+}
+
+button~button {
+margin-left: 4px;
+
+}

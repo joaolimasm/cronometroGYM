@@ -1,0 +1,18 @@
+<div [class]="'phase' + phase">
+  <div class="timeLeft">{{formatTimeLeft(timeLeft)}}</div>
+  <div>Exercício {{currentEx + 1}}/{{this.exercises.length}} {{this.exercises[this.currentEx].name}},
+  </div>
+  <div> repetições
+    {{currentRep +1}}/{{this.exercises[this.currentRep].repetition}}</div>
+  <div>
+    {{formatPhase(phase)}}
+  </div>
+</div>
+
+
+<div class="tools">
+  <button (click)="start()">Iniciar</button>
+  <button (click)="pause()">Pausar</button>
+  <button (click)="restart()">reiniciar</button>
+  <button (click)="next()">Próximo</button>
+</div>
