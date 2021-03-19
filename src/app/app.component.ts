@@ -8,13 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   config = false;
-  exercises: Exercise[] = [{
-    name: 'abdominal',
-    duration: 30,
-    repetition: 3,
-    preparation: 15,
-    rest: 15
 
-  }];
 
-}
+};
+
